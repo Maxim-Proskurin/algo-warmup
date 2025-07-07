@@ -1,29 +1,26 @@
 # 🧩 algo-warmup
+[![CI](https://github.com/Maxim-Proskurin/algo-warmup/actions/workflows/ci.yml/badge.svg)](…)
+![Python](https://img.shields.io/badge/python-3.12+-blue)
+![License](https://img.shields.io/github/license/Maxim-Proskurin/algo-warmup)
 
-Набор маленьких алгоритмических задач для прокачки Python-базы  
-(типизация, TDD, линтеры, CI).
+**algo-warmup** — коллекция крошечных задач для прокачки базового Python:
+типизация, TDD, линтеры и CI.
 
-## 📦 Установка
-
+## 🚀 Быстрый старт
 ```bash
 git clone https://github.com/Maxim-Proskurin/algo-warmup.git
 cd algo-warmup
-python -m venv .venv && source .venv/bin/activate    # Win: .venv\Scripts\activate
+python -m venv .venv && source .venv/bin/activate     # Win: .venv\Scripts\activate
 pip install -r requirements.txt
-
-```🚀 Быстрый старт
-ruff check .
-mypy .
 pytest -q
 
-✔️ Реализованные задачи
-Файл	src/max_two_sum.py	сумма двух max-элементов
 
-🏗️ CI
+- [ ] README открывается в репо и не «ломается» (код-блоки закрыты).
+- [ ] Команды `Quick start` воспроизводимы на чистой машине.
+- [ ] Бейдж CI реально зелёный (workflow в main).
+- [ ] Нет «мертвых» ссылок (docs/API).
+- [ ] Снимки/GIF ≤ 1 МБ (GitHub подгружает быстро).
 
-✨ Планы
- добавить kth_largest
+---
 
- тренировка monkeypatch
 
- покрытие > 90 %
