@@ -12,4 +12,5 @@ def max_two_sum(nums: List[int]) -> int:
             max1, max2 = x, max1
         elif max2 < x != max1:
             max2 = x
+            
     return max1 + max2
