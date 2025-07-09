@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # линтеры и тесты
 ruff check .
 mypy .
-pytest -q
+python -m pytest --cov=src -q
 ```
 
 ---
