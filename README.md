@@ -3,7 +3,6 @@
 
 [![CI](https://github.com/Maxim-Proskurin/algo-warmup/actions/workflows/ci.yml/badge.svg)](…)
 ![Python](https://img.shields.io/badge/python-3.12+-blue)
-![License](https://img.shields.io/github/license/Maxim-Proskurin/algo-warmup)
 ![coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)
 
 ## 🚀 Быстрый старт
