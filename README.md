@@ -1,9 +1,10 @@
 **algo-warmup** — коллекция крошечных задач для прокачки базового Python:
 типизация, TDD, линтеры и CI.
 
-[![CI](https://github.com/Maxim-Proskurin/algo-warmup/actions/workflows/ci.yml/badge.svg)](…)
-![Python](https://img.shields.io/badge/python-3.12+-blue)
-![coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)
+[![CI](https://github.com/Maxim-Proskurin/algo-warmup/actions/workflows/ci.yml/badge.svg)](https://github.com/Maxim-Proskurin/algo-warmup/actions)
+![Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
+![License](https://img.shields.io/github/license/Maxim-Proskurin/algo-warmup)
 
 ## 🚀 Быстрый старт
 
@@ -13,6 +14,7 @@ git clone https://github.com/Maxim-Proskurin/algo-warmup.git
 cd algo-warmup
 python -m venv .venv && source .venv/bin/activate   # Win: .venv\Scripts\activate
 pip install -r requirements.txt
+uvicorn app:app --reload
 
 # линтеры и тесты
 ruff check .
@@ -34,7 +36,10 @@ python -m pytest --cov=src -q
 
 ## 🛠️ Стек
 
-- Python 3.12\* ruff + mypy `--strict`\* pytest + coverage
+- **Python 3.12+**
+- **ruff** + **mypy --strict**
+- **pytest** + **pytest-cov**
+- **FastAPI** + **httpx** (async-тесты)
 
 ---
 
